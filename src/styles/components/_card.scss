@@ -1,0 +1,37 @@
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: 0 auto;
+  // .card {
+  text-align: center;
+  justify-content: center;
+  li {
+    flex: 1 0 12.5%;
+    min-width: 350px;
+    // max-width: 300px;
+    border: 1px solid $color-1;
+    background: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.084);
+  }
+  h2 {
+    margin: 10px auto;
+    color: #16d9e7;
+  }
+  p {
+    color: #36ca79;
+    text-align: justify;
+  }
+  img {
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.304);
+  }
+  // }
+}

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/JosefinSans-Medium.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+
+// $color-1: #61dafb;
+// $color-1: #f05c5c;
+$color-1: salmon;
+$color-2: salmon;
+$color-3: #282c34;
+$color-4: #16d9e7;
+
+$white: rgb(243, 243, 243);
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 10;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  font-family: $font-1;
+  outline-color: focused;
+  // @include verticalCenter;
+}
+li {
+  list-style-type: none;
+}
