@@ -11,7 +11,7 @@ const Card = ({ datameal }) => {
           src={datameal.strMealThumb}
           alt={"photo de" + datameal.strMealThumb}
         ></img>
-        {/* <p>{datameal.strInstructions}</p> */}
+        <p>{datameal.strInstructions}</p>
       </li>
     </div>
   );

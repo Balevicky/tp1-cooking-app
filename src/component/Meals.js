@@ -16,15 +16,16 @@ const Meals = () => {
   }, []);
   const handleinput = (e) => {
     e.preventDefault();
+    setInputValue("");
     setInputValue(e.target.value);
-    console.log(e.target.value);
+    // console.log(e.target.value);
 
-    console.log(inputValue);
-    if (inputValue == null) {
-      alert("aucune repat trouvé");
-    } else {
-      checkMeal(inputValue);
-    }
+    // console.log(inputValue);
+    // if (inputValue == null) {
+    //   alert("aucune repat trouvé");
+    // } else {
+    checkMeal(inputValue);
+    // }
   };
   return (
     <div>
